@@ -1,0 +1,79 @@
+.containers {
+	display:flex;
+
+}
+
+        .container1 {
+            width: 200px;
+            height: 200px;
+            border:solid 2px hsl(228, 43%, 72%);
+            overflow: hidden;
+            border-radius: 5px;
+            margin:  63px;
+            margin-top: 36px;
+            margin-bottom: 0%;
+            position: absolute; left:140px; right:200px;
+            
+        }
+        .container2{
+            line-height: 12px;
+            position: absolute;
+            top: 71px;
+            left: 450px;
+            font-family: Gill Sans, Sans-serif;
+             font-size: 120%;
+            color:  rgb(14, 121, 192);
+            ;
+        }
+   
+        .container3{
+          position: absolute;
+          top:315px;
+          left:158px;
+          font-family: Gill Sans, Sans-serif;
+          line-height: 12px;
+           
+
+        }
+
+        .container4{
+          position: absolute;
+          left:143px;
+          top:485px;
+          font-family: Gill Sans, Sans-serif;
+        }
+
+        .container6{
+          position: absolute;
+          left: 395px;
+          top:300px;
+          margin-right: 10px;
+          font-family: Gill Sans, Sans-serif;
+
+        }
+
+        .container5 {
+          width: 100%;
+          position: absolute;
+          top:680px;
+          height: 1px;
+          border-color:blue;
+          font-family: Gill Sans, Sans-serif;
+
+
+          
+        }
+
+        .container7{
+          position: absolute;
+          top: 680px;
+          left: 138px;
+          font-family: Gill Sans, Sans-serif;
+        }
+
+        .container8{
+          position: absolute;
+          top: 740px;
+          left:450px;
+          font-family: Gill Sans, Sans-serif;
+        }

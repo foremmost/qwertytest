@@ -1,0 +1,70 @@
+/*
+   Селекторы:
+    тега
+   имя_тега{
+    имя_свойства: значение св-ва;
+   }
+   p{
+    background-color: green;
+   }
+   Идентификатора
+   #имя_идентификатора{
+    имя_свойства: значение св-ва;
+   }
+   #myP{
+    background-color: blue;
+}
+   Класса
+   .имя_класс{
+    имя_свойства: значение св-ва;
+   }
+   .myClassP{
+    background-color: red;
+    }
+*/
+a{
+    text-decoration: none;
+}
+p{
+    color: brown;
+}
+p a{
+    color: tomato;
+}
+.container span{
+    color: red;
+}
+.container div:first-child span{
+    color: green;
+}
+.container div:nth-child(2) span{
+    color: green;
+}
+
+.container div:last-child span{
+    color: green;
+}
+/*odd even - четные*/
+.myList li:nth-child(2n+1){
+    color: blue;
+}
+
+.squares{
+    box-sizing: border-box;
+    width: 200px;
+    margin: auto;
+}
+.blue,.red{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    vertical-align: middle;
+}
+.blue{
+    background-color: blue;
+}
+.red{
+    background-color: red;
+    height: 80px;
+}
+

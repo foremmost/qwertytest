@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="ru">
+	<head>
+		<meta charset="utf-8">
+		<title>Формы</title>
+	</head>
+	<body>
+		<form action="путь до обработки сервером" method="post">
+			<p>
+				<input 
+					type="text" 
+					placeholder="Имя"  
+					name='user-fio'
+					required 
+					minlength="2" 
+					maxlength="3" 
+					pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$/" 	
+				>
+			</p>
+			<p>
+				<input type="number" name='age'>
+			</p>
+			<p>
+				<input type="file" name='photo'>
+			</p>
+			<p>
+				<input type="date" name='date'>
+			</p>
+			<p>
+				<input type="email" placeholder="Email" name='user-email'>
+			</p>
+			<p>
+				<input type="password" placeholder="Пароль" name='user-pass	'>
+			</p>
+			<p>
+				<textarea placeholder="Сообщение"  name='user-msg'></textarea>
+			</p>
+			<h5>Ваш любый цвет:</h5>
+			<p>
+				<label for="blue">Синий</label>
+				<input type="checkbox" id='blue'>
+
+				<label for="red">
+					Красный <input type="checkbox" id='red'>
+				</label>
+			</p>
+			<h4>Выберите пол:</h5>
+			<p>
+				<label for="male">
+					Мужской <input type="radio" id='male' name='gender'>
+				</label>
+				<label for="female">
+					Женский <input type="radio" id='female'  name='gender'>
+				</label>
+			</p>
+			<p>
+				<label for="country">
+					Выберите страну:
+				</label>
+				<select name="country" id='country'>
+					<option value="kz">Казахстан</option>
+					<option value="ru">Россия</option>
+					<option value="de">Германия</option>
+					<option value="kz">Казахстан</option>
+					<option value="ru">Россия</option>
+					<option value="de">Германия</option>
+					<option value="kz">Казахстан</option>
+					<option value="ru">Россия</option>
+					<option value="de">Германия</option>
+				</select>
+			</p>
+			<fieldset>
+				<legend>
+					Мой набор элементов
+				</legend>
+				<input type="text">
+				<input type="text">
+				<input type="text">
+			</fieldset>
+			<fieldset>
+				<legend>
+					Мой набор элементов
+				</legend>
+				<input type="text">
+				<input type="text">
+				<input type="text">
+			</fieldset>
+			<!-- 
+			<input type="submit" value="Отправить"> -->
+			<button type="button" name=''>Отправить</button>
+		</form>
+
+	</body>
+</html>
